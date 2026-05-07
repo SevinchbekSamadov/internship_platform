@@ -1,0 +1,61 @@
+# ── Python / Django ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Django ───────────────────────────────────────────
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# ── Environment (MUHIM: hech qachon commit qilmang) ──
+.env
+.env.*
+!.env.example
+
+# ── Node / React ─────────────────────────────────────
+node_modules/
+frontend/build/
+npm-debug.log*
+yarn-error.log
+
+# ── OS ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Word / Office vaqtinchalik fayllar ───────────────
+~$*
+*.tmp
+~WRL*.tmp
+
+# ── Diplom hujjatlari (repo da saqlamaslik) ──────────
+*.docx
+*.xlsx
+*.pdf
+
+# ── Docker ───────────────────────────────────────────
+.dockerignore
+
+# ── Boshqa ───────────────────────────────────────────
+bmi/
+{backend
+{public,src
