@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/internship-platform/static/css/main.fa024a7a.css",
+    "main.js": "/internship-platform/static/js/main.f74c11a0.js",
+    "index.html": "/internship-platform/index.html",
+    "main.fa024a7a.css.map": "/internship-platform/static/css/main.fa024a7a.css.map",
+    "main.f74c11a0.js.map": "/internship-platform/static/js/main.f74c11a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa024a7a.css",
+    "static/js/main.f74c11a0.js"
+  ]
+}
