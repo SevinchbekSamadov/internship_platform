@@ -2,8 +2,10 @@
   "name": "internship-frontend",
   "version": "2.0.0",
   "private": true,
+  "homepage": "https://SevinchbekSamadov.github.io/internship-platform",
   "dependencies": {
     "axios": "^1.6.0",
+    "gh-pages": "^6.1.1",
     "lucide-react": "^1.14.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -12,7 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [

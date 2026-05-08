@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Amaliyot Tizimi</title>
+    <script>
+      // GitHub Pages SPA routing
+      (function(l){if(l.search[1]==='p'){var d=l.search.slice(1).split('&').reduce(function(r,v){
+      var a=v.split('=');r[a[0]]=a.slice(1).join('=').replace(/~and~/g,'&');return r;},{});
+      if(d.p!==undefined){window.history.replaceState(null,null,
+      l.pathname.slice(0,l.pathname.indexOf('/',1)+1)+d.p.replace(/~and~/g,'&')+
+      (d.q?('?'+d.q.replace(/~and~/g,'&')):'')+ l.hash);}}}(window.location));
+    </script>
   </head>
   <body>
     <noscript>JavaScript yoqilmagan</noscript>
